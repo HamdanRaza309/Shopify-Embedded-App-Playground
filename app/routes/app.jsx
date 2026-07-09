@@ -14,8 +14,8 @@ export const loader = async ({ request }) => {
     // billing,
   } = authContext;
 
-  // console.log("[Server] Authentication Context:", authContext);
-  console.log("[Server] Shopify Session:", session);
+  console.log("[Server] Authentication Context:", authContext);
+  // console.log("[Server] Shopify Session:", session);
   // console.log("[Server] Admin API Client:", admin);
   // console.log("[Server] CORS Helpers:", cors);
   // console.log("[Server] Redirect Helpers:", redirect);
